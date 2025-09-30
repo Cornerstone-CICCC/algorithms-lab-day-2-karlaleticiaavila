@@ -2,4 +2,9 @@
 // and returns the number of consonants in the string.
 // Example: countConsonants("hello world") should return 7.
 
+function countConsonants()
+
+
+
 console.log(countConsonants("hello world")); // Expected output: 7
+

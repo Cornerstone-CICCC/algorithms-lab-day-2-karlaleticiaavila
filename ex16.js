@@ -2,8 +2,16 @@
 // Example: [3, 10, 15, 7, 22, 18] → 100
 // Use method chaining and write the solution in one line
 
-const numbers = [3, 10, 15, 7, 22, 18]
+
+
+//even numbers
+
+const numbers = [3, 10, 15, 7, 22, 18];
 
 console.log(
   numbers
-) // Expected output: 100
+    .filter(n => n % 2 === 0)        
+    .map(n => n * 2)                 
+    .reduce((sum, n) => sum + n, 0) 
+); 
+// Expected output: 100

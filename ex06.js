@@ -3,4 +3,7 @@
 // Example: getQueryParams("https://example.com?search=test&page=2")
 // should return { search: "test", page: "2" }.
 
+
+function getQueryParams()
+
 console.log(getQueryParams("https://example.com?search=test&page=2")); // Expected output: { search: "test", page: "2" }
